@@ -1,0 +1,24 @@
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+
+}
+.window {
+	border: 1px solid orange;
+	width: 300px;
+	height: 200px;
+	position: fixed;
+	left: 80%;
+	top: 20%;
+	background-color: orange;
+}
+
+span {
+	font-size: 28px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
